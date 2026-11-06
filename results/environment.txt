@@ -1,0 +1,23 @@
+Generated (UTC): 2026-11-06T11:30:58.780324200Z
+Java version: 25.0.1
+Java runtime: OpenJDK Runtime Environment
+Java VM: OpenJDK 64-Bit Server VM
+Java vendor: Oracle Corporation
+JVM arguments: [-Djava.awt.headless=true]
+OS: Windows 11 10.0 amd64
+Available processors: 16
+Maximum JVM heap (bytes): 4192206848
+Base seed: 2522
+Alphabet: abcd
+Generator: java.util.Random; DP seed = base + n; matching seed = base + 1000000 + n; Kasai seed = base + 2000000 + n
+Matching pattern length: 32
+Present pattern starts at (n - patternLength) / 2; absent pattern is sampled from the same alphabet until absent
+Warmups per algorithm/input: 10
+Measured trials per algorithm/input: 5
+Clock: System.nanoTime(); elapsed values are nanoseconds
+Timed: complete algorithm invocation, including required preprocessing, validation, allocations, and instrumentation
+Excluded: random generation, suffix-array construction, result inspection, console output, CSV/file operations, and PNG generation
+Summary standard deviation: population standard deviation of the five measured times
+Counter values are deterministic and identical across trials; summary lists their common value
+result_value: LCS length / edit distance / match count / maximum LCP, depending on algorithm
+Runtime caveat: short JVM microbenchmarks are affected by compilation, garbage collection, scheduling, and instrumentation

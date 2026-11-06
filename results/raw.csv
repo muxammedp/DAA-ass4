@@ -1,0 +1,136 @@
+family,algorithm,scenario,input_size,second_size,trial,elapsed_ns,comparisons,cell_updates,hash_checks,verified_hash_hits,result_value
+dp,LCS,random,100,100,1,170100,0,10000,0,0,63
+dp,LCS,random,100,100,2,165700,0,10000,0,0,63
+dp,LCS,random,100,100,3,151400,0,10000,0,0,63
+dp,LCS,random,100,100,4,147800,0,10000,0,0,63
+dp,LCS,random,100,100,5,141200,0,10000,0,0,63
+dp,Edit Distance,random,100,100,1,200400,0,10000,0,0,56
+dp,Edit Distance,random,100,100,2,193600,0,10000,0,0,56
+dp,Edit Distance,random,100,100,3,178300,0,10000,0,0,56
+dp,Edit Distance,random,100,100,4,177200,0,10000,0,0,56
+dp,Edit Distance,random,100,100,5,176300,0,10000,0,0,56
+dp,LCS,random,500,500,1,696400,0,250000,0,0,324
+dp,LCS,random,500,500,2,696600,0,250000,0,0,324
+dp,LCS,random,500,500,3,697100,0,250000,0,0,324
+dp,LCS,random,500,500,4,695000,0,250000,0,0,324
+dp,LCS,random,500,500,5,728700,0,250000,0,0,324
+dp,Edit Distance,random,500,500,1,897400,0,250000,0,0,266
+dp,Edit Distance,random,500,500,2,961000,0,250000,0,0,266
+dp,Edit Distance,random,500,500,3,844100,0,250000,0,0,266
+dp,Edit Distance,random,500,500,4,852400,0,250000,0,0,266
+dp,Edit Distance,random,500,500,5,839200,0,250000,0,0,266
+dp,LCS,random,1000,1000,1,2386100,0,1000000,0,0,645
+dp,LCS,random,1000,1000,2,2368800,0,1000000,0,0,645
+dp,LCS,random,1000,1000,3,2368600,0,1000000,0,0,645
+dp,LCS,random,1000,1000,4,2374200,0,1000000,0,0,645
+dp,LCS,random,1000,1000,5,2388800,0,1000000,0,0,645
+dp,Edit Distance,random,1000,1000,1,3776200,0,1000000,0,0,519
+dp,Edit Distance,random,1000,1000,2,3549300,0,1000000,0,0,519
+dp,Edit Distance,random,1000,1000,3,3548200,0,1000000,0,0,519
+dp,Edit Distance,random,1000,1000,4,3524400,0,1000000,0,0,519
+dp,Edit Distance,random,1000,1000,5,3573700,0,1000000,0,0,519
+matching,Naive,present,10000,32,1,254200,13406,0,0,0,1
+matching,Naive,present,10000,32,2,251600,13406,0,0,0,1
+matching,Naive,present,10000,32,3,248600,13406,0,0,0,1
+matching,Naive,present,10000,32,4,264100,13406,0,0,0,1
+matching,Naive,present,10000,32,5,244900,13406,0,0,0,1
+matching,KMP,present,10000,32,1,200600,12575,0,0,0,1
+matching,KMP,present,10000,32,2,185100,12575,0,0,0,1
+matching,KMP,present,10000,32,3,172800,12575,0,0,0,1
+matching,KMP,present,10000,32,4,172500,12575,0,0,0,1
+matching,KMP,present,10000,32,5,181300,12575,0,0,0,1
+matching,Rabin-Karp,present,10000,32,1,255600,32,0,9969,1,1
+matching,Rabin-Karp,present,10000,32,2,195700,32,0,9969,1,1
+matching,Rabin-Karp,present,10000,32,3,147900,32,0,9969,1,1
+matching,Rabin-Karp,present,10000,32,4,159900,32,0,9969,1,1
+matching,Rabin-Karp,present,10000,32,5,533200,32,0,9969,1,1
+matching,Naive,absent,10000,32,1,122400,13380,0,0,0,0
+matching,Naive,absent,10000,32,2,122000,13380,0,0,0,0
+matching,Naive,absent,10000,32,3,121200,13380,0,0,0,0
+matching,Naive,absent,10000,32,4,121600,13380,0,0,0,0
+matching,Naive,absent,10000,32,5,121000,13380,0,0,0,0
+matching,KMP,absent,10000,32,1,164500,12418,0,0,0,0
+matching,KMP,absent,10000,32,2,171400,12418,0,0,0,0
+matching,KMP,absent,10000,32,3,164700,12418,0,0,0,0
+matching,KMP,absent,10000,32,4,163600,12418,0,0,0,0
+matching,KMP,absent,10000,32,5,164400,12418,0,0,0,0
+matching,Rabin-Karp,absent,10000,32,1,190400,0,0,9969,0,0
+matching,Rabin-Karp,absent,10000,32,2,195700,0,0,9969,0,0
+matching,Rabin-Karp,absent,10000,32,3,189600,0,0,9969,0,0
+matching,Rabin-Karp,absent,10000,32,4,188700,0,0,9969,0,0
+matching,Rabin-Karp,absent,10000,32,5,189300,0,0,9969,0,0
+matching,Naive,present,50000,32,1,287500,66600,0,0,0,1
+matching,Naive,present,50000,32,2,292600,66600,0,0,0,1
+matching,Naive,present,50000,32,3,321800,66600,0,0,0,1
+matching,Naive,present,50000,32,4,290300,66600,0,0,0,1
+matching,Naive,present,50000,32,5,286500,66600,0,0,0,1
+matching,KMP,present,50000,32,1,273900,62554,0,0,0,1
+matching,KMP,present,50000,32,2,232400,62554,0,0,0,1
+matching,KMP,present,50000,32,3,231200,62554,0,0,0,1
+matching,KMP,present,50000,32,4,227800,62554,0,0,0,1
+matching,KMP,present,50000,32,5,231000,62554,0,0,0,1
+matching,Rabin-Karp,present,50000,32,1,359300,32,0,49969,1,1
+matching,Rabin-Karp,present,50000,32,2,359500,32,0,49969,1,1
+matching,Rabin-Karp,present,50000,32,3,363000,32,0,49969,1,1
+matching,Rabin-Karp,present,50000,32,4,360000,32,0,49969,1,1
+matching,Rabin-Karp,present,50000,32,5,360200,32,0,49969,1,1
+matching,Naive,absent,50000,32,1,303100,66786,0,0,0,0
+matching,Naive,absent,50000,32,2,290600,66786,0,0,0,0
+matching,Naive,absent,50000,32,3,292000,66786,0,0,0,0
+matching,Naive,absent,50000,32,4,293200,66786,0,0,0,0
+matching,Naive,absent,50000,32,5,294600,66786,0,0,0,0
+matching,KMP,absent,50000,32,1,229100,62549,0,0,0,0
+matching,KMP,absent,50000,32,2,230000,62549,0,0,0,0
+matching,KMP,absent,50000,32,3,229100,62549,0,0,0,0
+matching,KMP,absent,50000,32,4,230100,62549,0,0,0,0
+matching,KMP,absent,50000,32,5,229800,62549,0,0,0,0
+matching,Rabin-Karp,absent,50000,32,1,356000,0,0,49969,0,0
+matching,Rabin-Karp,absent,50000,32,2,351000,0,0,49969,0,0
+matching,Rabin-Karp,absent,50000,32,3,351400,0,0,49969,0,0
+matching,Rabin-Karp,absent,50000,32,4,352600,0,0,49969,0,0
+matching,Rabin-Karp,absent,50000,32,5,361000,0,0,49969,0,0
+matching,Naive,present,100000,32,1,578700,133129,0,0,0,1
+matching,Naive,present,100000,32,2,579900,133129,0,0,0,1
+matching,Naive,present,100000,32,3,580800,133129,0,0,0,1
+matching,Naive,present,100000,32,4,587000,133129,0,0,0,1
+matching,Naive,present,100000,32,5,581700,133129,0,0,0,1
+matching,KMP,present,100000,32,1,592000,124915,0,0,0,1
+matching,KMP,present,100000,32,2,618700,124915,0,0,0,1
+matching,KMP,present,100000,32,3,620900,124915,0,0,0,1
+matching,KMP,present,100000,32,4,615800,124915,0,0,0,1
+matching,KMP,present,100000,32,5,643000,124915,0,0,0,1
+matching,Rabin-Karp,present,100000,32,1,795700,32,0,99969,1,1
+matching,Rabin-Karp,present,100000,32,2,773100,32,0,99969,1,1
+matching,Rabin-Karp,present,100000,32,3,764500,32,0,99969,1,1
+matching,Rabin-Karp,present,100000,32,4,780400,32,0,99969,1,1
+matching,Rabin-Karp,present,100000,32,5,764600,32,0,99969,1,1
+matching,Naive,absent,100000,32,1,667800,133226,0,0,0,0
+matching,Naive,absent,100000,32,2,639200,133226,0,0,0,0
+matching,Naive,absent,100000,32,3,638500,133226,0,0,0,0
+matching,Naive,absent,100000,32,4,595400,133226,0,0,0,0
+matching,Naive,absent,100000,32,5,571700,133226,0,0,0,0
+matching,KMP,absent,100000,32,1,452500,124918,0,0,0,0
+matching,KMP,absent,100000,32,2,454100,124918,0,0,0,0
+matching,KMP,absent,100000,32,3,448100,124918,0,0,0,0
+matching,KMP,absent,100000,32,4,456400,124918,0,0,0,0
+matching,KMP,absent,100000,32,5,462600,124918,0,0,0,0
+matching,Rabin-Karp,absent,100000,32,1,712600,0,0,99969,0,0
+matching,Rabin-Karp,absent,100000,32,2,705900,0,0,99969,0,0
+matching,Rabin-Karp,absent,100000,32,3,704500,0,0,99969,0,0
+matching,Rabin-Karp,absent,100000,32,4,745400,0,0,99969,0,0
+matching,Rabin-Karp,absent,100000,32,5,702400,0,0,99969,0,0
+lcp,Kasai,random,1000,0,1,100900,1991,0,0,0,10
+lcp,Kasai,random,1000,0,2,96800,1991,0,0,0,10
+lcp,Kasai,random,1000,0,3,102000,1991,0,0,0,10
+lcp,Kasai,random,1000,0,4,101300,1991,0,0,0,10
+lcp,Kasai,random,1000,0,5,97800,1991,0,0,0,10
+lcp,Kasai,random,5000,0,1,165900,9989,0,0,0,11
+lcp,Kasai,random,5000,0,2,169900,9989,0,0,0,11
+lcp,Kasai,random,5000,0,3,171400,9989,0,0,0,11
+lcp,Kasai,random,5000,0,4,280200,9989,0,0,0,11
+lcp,Kasai,random,5000,0,5,294400,9989,0,0,0,11
+lcp,Kasai,random,10000,0,1,381800,19988,0,0,0,12
+lcp,Kasai,random,10000,0,2,389800,19988,0,0,0,12
+lcp,Kasai,random,10000,0,3,257600,19988,0,0,0,12
+lcp,Kasai,random,10000,0,4,380800,19988,0,0,0,12
+lcp,Kasai,random,10000,0,5,372400,19988,0,0,0,12
