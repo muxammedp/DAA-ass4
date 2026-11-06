@@ -1,0 +1,7 @@
+/build/
+/.work/
+/.idea/
+*.class
+*.iml
+__pycache__/
+*.py
