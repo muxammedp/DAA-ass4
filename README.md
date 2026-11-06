@@ -152,7 +152,7 @@ The dependency-free test suite uses explicit checks that always execute; Java's 
 | Matching randomized checks | 2,000 seeded cases; all three algorithms must agree with each other and with an independent `startsWith`-based reference |
 | Collision handling | Two different length-two strings have the same base-257 hash; Rabin-Karp must verify and reject the collision |
 | Kasai fixtures | Manually supplied `banana` suffix/LCP arrays; empty, singleton, repeated and distinct characters |
-| Suffix/LCP randomized checks | 1,000 seeded cases; compare suffix ordering with a test-only library sort and each LCP with direct prefix comparison |
+| Suffix/LCP randomized checks | 1,000 seeded cases; check adjacent suffix ordering with Java `String.compareTo` and each LCP with direct prefix comparison |
 | Contracts and stress | Null inputs, malformed suffix arrays, immutable outputs, 10,000-character repetitive inputs, linear comparison bounds |
 
 Library operations used by test oracles and input preparation do not replace any required algorithm implementation. DP cell counts, Rabin-Karp window counts and deterministic result/counter consistency are also checked.
